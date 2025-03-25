@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // 实际应用中，使用此函数将授权码发送到您的服务器
 function sendCodeToServer(code) {
     // 这里应该是您的后端服务地址
-    const serverUrl = 'https://您的服务器地址/auth/callback';
+    const serverUrl = 'https://db01-103-97-2-14.ngrok-free.app/auth/callback';
     
     fetch(serverUrl, {
         method: 'POST',
